@@ -1,0 +1,7 @@
+// qui dentro, in style.scss, importerò TUTTI i partials definiti nella cartella "partials"
+// questo file, a differenza dei partials, NON avrà il nome che comincia con un _, e di conseguenza
+// verrà compilato in un file .css
+
+@import 'partials/reset';
+@import 'partials/colors';
+@import 'partials/style';
